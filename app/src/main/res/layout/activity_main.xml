@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:context="com.ytx.MainActivity">
+
+    <com.ytx.widget.CommonShowLayout
+        android:id="@+id/commonShowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:emptyId="@layout/empty_view">
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hello World!\nHello WorldHello WorldHello WorldHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHelloHello World!\nHello" />
+    </com.ytx.widget.CommonShowLayout>
+</RelativeLayout>

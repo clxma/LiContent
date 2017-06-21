@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonShowLayout">
+        <attr name="emptyId" format="integer" />
+        <attr name="errorid" format="integer" />
+        <attr name="loadingid" format="integer" />
+
+    </declare-styleable>
+</resources>
